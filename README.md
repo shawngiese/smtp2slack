@@ -12,7 +12,7 @@ Node.js based bridge that receives SMTP messages and then forwards them to Slack
 
 ## Usage
 
-![](/resources/mobileMessage2.PNG)
+![](/resources/mobileMessage.PNG)
 
 ### Run locally
 Running the chatbot locally, from your laptop, is very useful for debugging. All of the console output will appear in the terminal you are using to run node. This is also useful if you have resources you want your chatbot to use that are not publically available on the Internet.
