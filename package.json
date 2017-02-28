@@ -1,0 +1,28 @@
+{
+  "name": "smtp2slack",
+  "version": "1.0.0",
+  "description": "Forwarding SMTP messages as a web hook for Slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawngiese/smtp2slack.git"
+  },
+  "keywords": [
+    "smtp",
+    "notification",
+    "slack"
+  ],
+  "author": "Shawn Giese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawngiese/smtp2slack/issues"
+  },
+  "homepage": "https://github.com/shawngiese/smtp2slack#readme",
+  "dependencies": {
+    "mailin": "^3.0.3",
+	"request": "~2.72.0"
+  }
+}

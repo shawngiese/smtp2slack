@@ -1,0 +1,23 @@
+2017-02-28T16:08:56.145Z - info: Mailin Smtp server listening on port 25
+2017-02-28T16:09:09.004Z - info: Mailin Smtp server listening on port 25
+2017-02-28T16:10:00.476Z - verbose: Connection id 4a492cdd-3f75-42b9-b14b-a673a89d5122
+2017-02-28T16:10:00.476Z - info: 4a492cdd-3f75-42b9-b14b-a673a89d5122 Receiving message from iHub@example.com
+2017-02-28T16:10:00.483Z - info: 4a492cdd-3f75-42b9-b14b-a673a89d5122 Processing message from iHub@example.com
+2017-02-28T16:10:00.490Z - verbose: 4a492cdd-3f75-42b9-b14b-a673a89d5122 Validating dkim.
+2017-02-28T16:10:00.491Z - verbose: 4a492cdd-3f75-42b9-b14b-a673a89d5122 Validating spf.
+2017-02-28T16:10:00.492Z - verbose: 4a492cdd-3f75-42b9-b14b-a673a89d5122 Parsing email.
+2017-02-28T16:10:00.525Z - verbose: 4a492cdd-3f75-42b9-b14b-a673a89d5122 Detecting language.
+2017-02-28T16:10:00.539Z - verbose: Potential languages: [ [ 'latin', 0.17723529411764705 ],
+  [ 'romanian', 0.16894117647058826 ] ]
+2017-02-28T16:10:00.560Z - info: 4a492cdd-3f75-42b9-b14b-a673a89d5122 End processing message, deleted .tmp\4a492cdd-3f75-42b9-b14b-a673a89d5122
+2017-02-28T16:44:52.274Z - info: Mailin Smtp server listening on port 25
+2017-02-28T16:46:54.277Z - verbose: Connection id bce1f4e3-222d-46d2-899f-dad7bf6c0854
+2017-02-28T16:46:54.278Z - info: bce1f4e3-222d-46d2-899f-dad7bf6c0854 Receiving message from iHub@example.com
+2017-02-28T16:46:54.286Z - info: bce1f4e3-222d-46d2-899f-dad7bf6c0854 Processing message from iHub@example.com
+2017-02-28T16:46:54.289Z - verbose: bce1f4e3-222d-46d2-899f-dad7bf6c0854 Validating dkim.
+2017-02-28T16:46:54.290Z - verbose: bce1f4e3-222d-46d2-899f-dad7bf6c0854 Validating spf.
+2017-02-28T16:46:54.290Z - verbose: bce1f4e3-222d-46d2-899f-dad7bf6c0854 Parsing email.
+2017-02-28T16:46:54.397Z - verbose: bce1f4e3-222d-46d2-899f-dad7bf6c0854 Detecting language.
+2017-02-28T16:46:54.410Z - verbose: Potential languages: [ [ 'latin', 0.17723529411764705 ],
+  [ 'romanian', 0.16894117647058826 ] ]
+2017-02-28T16:46:54.431Z - info: bce1f4e3-222d-46d2-899f-dad7bf6c0854 End processing message, deleted .tmp\bce1f4e3-222d-46d2-899f-dad7bf6c0854

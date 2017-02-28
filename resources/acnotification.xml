@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<notificationTemplate version="1.0">
+	<successMessage>
+		<subject>Report Generated: <insert variable="jobHeadline"/></subject>
+		<body>Report <insert variable="jobType"/> complete.
+Version: <insert variable="reportDocumentVersionName"/>
+Report name: <insert variable="reportDocumentName"/>
+Access report: <insert variable="reportLink"/>
+Submitter: <insert variable="jobSubmitter"/>
+		</body>
+	</successMessage>
+	<failureMessage>
+		<subject>Report Failure: <insert variable="jobHeadline"/> <insert variable="reportDocumentVersionName"/></subject>
+		<body>Report <insert variable="reportDocumentName"/> <insert variable="jobType"/> failed.
+Access schedule: <insert variable="reportLink"/>
+Submitter: <insert variable="jobSubmitter"/>
+Failed: <insert variable="jobCompletion"/>
+
+For the detailed status report see the job notifications on iHub.
+		</body>
+	</failureMessage>
+</notificationTemplate>
