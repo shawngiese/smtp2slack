@@ -48,3 +48,5 @@ Temporary Items
 
 # Dependency directories
 node_modules
+
+log/logfile.txt
