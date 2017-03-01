@@ -37,16 +37,18 @@ Otherwise replace the following line with your Slack WebHook url: 'https://hooks
 6. Backup and then replace C:\OpenText\InformationHub\modules\BIRTiHub\iHub\shared\config\acnotification.xml with \resources\acnotification.xml. This reformats the emails sent from Information Hub.
 
 7. Backup and then add the following XML to acserverconfig.xml at C:\OpenText\InformationHub\modules\BIRTiHub\iHub\shared\config\:
+
+ ```
 <SMTPServers>
-			<SMTPServer
-				 Name="smtp2slack"
-				 Greeting="HELO"
-				 SMTPPort="25"
-				 SenderName="OpenText IHub notification"
-				 SMTPHostName="localhost"
-				 SenderAddress="iHub@example.com"/>
-		</SMTPServers>
-		
+	<SMTPServer
+		Name="smtp2slack"
+		Greeting="HELO"
+		SMTPPort="25"
+		SenderName="OpenText IHub notification"
+		SMTPHostName="localhost"
+		SenderAddress="iHub@example.com"/>
+</SMTPServers>
+ ```
 8. Restart Information Hub
 9. Add an email address for the Administrator account so that emails are sent.	
 
