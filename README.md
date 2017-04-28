@@ -22,8 +22,8 @@ Running the chatbot locally, from your laptop, is very useful for debugging. All
 ** In Windows set the token as an environmental variable with the command:
 
  ```
-    set SLACK_TOKEN=<YOUR_SLACK_TOKEN>
-	echo %SLACK_TOKEN%
+    set SLACK_WEBURL=<YOUR_SLACK_TOKEN>
+	echo %SLACK_WEBURL%
  ```    
 Otherwise replace the following line with your Slack WebHook url: 'https://hooks.slack.com/services/'+ webhookurl,
 **Do not upload your WebHook URL to a public repository.
