@@ -1,6 +1,7 @@
 var mailin = require('mailin');
 var request = require('request');
 
+
 var webhookurl = process.env.SLACK_WEBURL;
 
 /* Start the Mailin server. The available options are:

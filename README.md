@@ -17,13 +17,13 @@ Node.js based bridge that receives SMTP messages and then forwards them to Slack
 ### Run locally
 Running the chatbot locally, from your laptop, is very useful for debugging. All of the console output will appear in the terminal you are using to run node. This is also useful if you have resources you want your chatbot to use that are not publically available on the Internet.
 
-1. Get your Slack Webhook URL from the Manage > Custom Integrations > Incoming WebHooks page of your Slack Team.
+1. Get your Slack Webhook URL from the Manage > Custom Integrations > Incoming WebHooks page of your Slack Team. Save the portion of the URL aftter https://hooks.slack.com/services/ as an environment variable.
 
 ** In Windows set the token as an environmental variable with the command:
 
  ```
-    set SLACK_TOKEN=<YOUR_SLACK_TOKEN>
-	echo %SLACK_TOKEN%
+    set SLACK_WEBURL=<YOUR_SLACK_URL>
+	echo %SLACK_WEBURL%
  ```    
 Otherwise replace the following line with your Slack WebHook url: 'https://hooks.slack.com/services/'+ webhookurl,
 **Do not upload your WebHook URL to a public repository.
